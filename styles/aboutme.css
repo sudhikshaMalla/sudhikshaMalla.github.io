@@ -1,0 +1,62 @@
+body {
+    background-image: url("https://images2.alphacoders.com/108/thumb-1920-108142.jpg");
+    content: "";
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.9;
+    font-weight: bold;
+}
+
+li {
+    display: inline-block;
+    color: black;
+    font-size:xx-large;
+    margin: 10px 80px;
+    border-bottom: 2px solid black;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+a:visited {
+    color: grey;
+}
+
+.aboutmenav {
+    border-bottom: 2px solid gray;
+}
+
+nav {
+    position: fixed;
+}
+
+section {
+    color: darkgrey;
+    width: 55%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-size: large;
+    padding-left: 20px;
+}
+
+table {
+    text-align: center;
+    border: 2px solid white;
+    margin: 100px 25%;
+}
+
+td {
+    border: 1px solid;
+    padding: 5px;
+    font-size: large;
+}
